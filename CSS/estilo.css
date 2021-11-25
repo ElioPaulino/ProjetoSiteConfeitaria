@@ -1,0 +1,257 @@
+/*Estilo customizado*/
+
+/*Configurações gerais*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #DCFEFF url(../imagens/fundo.png) repeat-x;
+	background-size: 300px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h3{
+	display: inline;
+	font-size: 1em;
+	padding: 3px;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.8em;
+	background-color: #fff;
+}
+
+h2{
+	padding: 5px;
+	color: #fff;
+	background: purple;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+iframe{
+	margin-bottom: 55px;
+}
+
+/*Container geral*/
+#container{
+	margin: 0 auto;
+	width: 750px;
+}
+
+#container2{
+	margin: 0 auto;
+	width: 850px;
+}
+
+/*Configuração topo*/
+
+#topo{
+	margin: 0 auto;
+	width: 750px;
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right;
+	background-size: 115px;
+	padding-top: 25px;
+}
+
+#topo ul{
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul li a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left;
+}
+
+#topo ul .primeiro a{
+	background: none;
+}
+
+#topo ul a:hover{
+	color: #69001d;
+}
+
+/*Configuração Logo*/
+.logo{
+	width: 190px;
+	height: 90px;
+	background:url(../imagens/logo.png) no-repeat center;
+	background-size: 150px;
+	text-indent: -3000px;
+
+}
+
+
+body.home ul#navegacao,
+body.bolos ul#navegacao,
+body.tortas ul#navegacao,
+body.mousses ul#navegacao,
+body.bombons ul#navegacao,
+body.docinhos ul#navegacao,
+body.fotos ul#navegacao{
+	color: #fff;
+	background: purple;
+	cursor: text;
+
+}
+
+#conteudo{
+	margin-top: 60px;
+	background: #f5f5f5;
+}
+
+#primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#primario2{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 295px;
+}
+
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+#secundario2{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+img.imagem-principal{
+	width: 98%;
+	height: 175px;
+	border: 3px solid #DCFEFF;
+
+}
+
+.destaque h3{ /*Tudo que tiver a classe destaque dentro do h3*/
+	background: purple;
+	color: #fff;
+}
+
+/*Configuração da area de promoção*/
+
+#lista-promocao li{
+	padding: 2px;
+	border: 1px solid purple;
+	height: 62px;
+}
+
+#lista-promocao li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-promocao li a {
+	text-decoration: none;
+}
+
+
+#lista-promocao li a h3{
+	padding: 0;
+	font-size: 0.8em;
+	color: purple;
+	
+}
+
+#lista-promocao li a p{
+	font-size: 0.7em;
+	color: #000;
+	
+}
+
+#lista-promocao li:hover{
+	background: #FFD8F0;
+	cursor: pointer;	
+}
+
+.caixa-conteudo{
+	background: #DCFEFF;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+/*Configuração coluna lateral*/
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+#lateral2{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px -840px;
+}
+
+/*Configuração do submit*/
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: purple;
+	border: 2px solid #870529;
+}
+
+/*Rodapé*/
+#container-rodape{
+	background: purple;
+	padding: 20px;
+}
+
+#container-rodape div{
+	padding-top: 15px;
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+
+#container-rodape a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#container-rodape a:hover{
+	color: purple;
+	background: #fff;
+	border-radius: 15px;
+}
+ 
+.descricao{
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
