@@ -63,7 +63,7 @@ iframe{
 
 #topo{
 	margin: 0 auto;
-	width: 750px;
+	width: 800px;
 	height: 150px;
 	background: url(../imagens/detalhe-topo.png) no-repeat right;
 	background-size: 115px;
@@ -111,10 +111,12 @@ iframe{
 
 body.home ul#navegacao,
 body.bolos ul#navegacao,
+body.bombons ul#navegacao,
+body.cookies ul#navegacao,
+body.desenvolvedores ul#navegacao,
+body.docinhos ul#navegacao,
 body.tortas ul#navegacao,
 body.mousses ul#navegacao,
-body.bombons ul#navegacao,
-body.docinhos ul#navegacao,
 body.fotos ul#navegacao{
 	color: #fff;
 	background: purple;
@@ -229,7 +231,6 @@ input.submit{
 /*Rodapé*/
 #container-rodape{
 	background: purple;
-	padding: 20px;
 }
 
 #container-rodape div{
@@ -255,3 +256,14 @@ input.submit{
 	margin-top: 10px;
 	margin-bottom: 10px;
 } 
+
+#lateral2footer{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px -840px;
+}
+#primario2footer{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 295px;
+}
